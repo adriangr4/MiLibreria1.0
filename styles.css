@@ -473,7 +473,7 @@ aside h2 {
 }
 
 .add-to-cart {
-    background-color: #C8E6C9;
+    background-color: #EEFBDA;
     border: none;
     padding: 10px;
     border-radius: 4px;
@@ -486,5 +486,5 @@ aside h2 {
 }
 
 .add-to-cart:hover {
-    background-color: #A5D6A7;
+    background-color: #DCF5B8;
 }
