@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos básicos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mi Librería - Tienda online de libros, juguetes y merchandising">
+
+    <!-- Título de la página -->
+    <title>Mi Librería - Tienda Online</title>
+
+    <!-- Enlace a la hoja de estilos -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome para iconos de redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- ========================================
+         CABECERA (HEADER)
+         ======================================== -->
+    <!-- Contiene el nombre de la empresa y el logotipo -->
+    <header>
+        <h1>BOOKSTORE</h1>
+        <div class="logo">
+            <img src="./img/ChatGPT Image 6 nov 2025, 18_17_25.png" alt="Logo Libros Online">
+            <span>LIBROS<br>Online</span>
+        </div>
+    </header>
+
+    <!-- ========================================
+         BARRA DE NAVEGACIÓN (NAV)
+         ======================================== -->
+    <!-- Incluye buscador y menú de navegación -->
+    <nav>
+        <!-- Formulario de búsqueda (lado izquierdo) -->
+        <form class="search-form" action="#" method="get">
+            <input type="search" name="buscar" placeholder="Buscador" aria-label="Buscar productos">
+        </form>
+
+        <!-- Menú de navegación (lado derecho) -->
+        <ul class="nav-menu">
+            <li><a href="index.html">Tu librería</a></li>
+            <li><a href="tienda.html">Compra On-Line</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- ========================================
+         CONTENIDO PRINCIPAL (MAIN)
+         ======================================== -->
+    <!-- Layout de 2 columnas: categorías (25%) y productos (75%) -->
+    <main class="shop-layout">
+        <!-- ========================================
+             BARRA LATERAL DE CATEGORÍAS (ASIDE)
+             ======================================== -->
+        <!-- Menú de categorías con checkboxes -->
+        <aside>
+            <h2>CATEGORIES</h2>
+            <ul class="category-list">
+                <li>
+                    <label>
+                        <input type="checkbox" name="categoria" value="juguetes">
+                        Juguetes
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="categoria" value="libros">
+                        Libros
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="categoria" value="todo">
+                        Todo
+                    </label>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- ========================================
+             SECCIÓN DE PRODUCTOS (SECTION)
+             ======================================== -->
+        <!-- Grid de productos en 3 columnas -->
+        <section class="products-section">
+            <!-- Producto 1: Taza One Piece -->
+            <article class="product-card">
+                <div class="product-name">
+                    <h3>Taza One Piece</h3>
+                </div>
+                <div class="product-image">
+                    <img src="./img/tazaOnepiece.jpeg" alt="Taza de cerámica One Piece con logo pirata">
+                </div>
+                <div class="product-info">
+                    <p class="product-price">Price: 14,99$</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </article>
+
+            <!-- Producto 2: Mochila de ruedas -->
+            <article class="product-card">
+                <div class="product-name">
+                    <h3>Mochila de ruedas</h3>
+                </div>
+                <div class="product-image">
+                    <img src="./img/mochilaDeRuedad.avif" alt="Mochila escolar morada y blanca con ruedas">
+                </div>
+                <div class="product-info">
+                    <p class="product-price">Price: 34,99$</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </article>
+
+            <!-- Producto 3: Tablero Gormiti -->
+            <article class="product-card">
+                <div class="product-name">
+                    <h3>Tablero Gormiti</h3>
+                </div>
+                <div class="product-image">
+                    <img src="./img/tableroGormiti.jpg" alt="Juego de mesa Gormiti The Elemental War">
+                </div>
+                <div class="product-info">
+                    <p class="product-price">Price: 23,99$</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </article>
+
+            <!-- Producto 4: Hot wheels -->
+            <article class="product-card">
+                <div class="product-name">
+                    <h3>Hot wheels</h3>
+                </div>
+                <div class="product-image">
+                    <img src="./img/hotwheels.jpg" alt="Set de coches Hot Wheels Super Speed Race Team">
+                </div>
+                <div class="product-info">
+                    <p class="product-price">Price: 7,99$</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </article>
+
+            <!-- Producto 5: Coche Rayo McQueen -->
+            <article class="product-card">
+                <div class="product-name">
+                    <h3>Coche Rayo Mcqueen</h3>
+                </div>
+                <div class="product-image">
+                    <img src="product5.png" alt="Coche de juguete Rayo McQueen de Cars">
+                </div>
+                <div class="product-info">
+                    <p class="product-price">Price: 29,99$</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </article>
+
+            <!-- Producto 6: Cartas Pokemon -->
+            <article class="product-card">
+                <div class="product-name">
+                    <h3>Cartas Pokemon</h3>
+                </div>
+                <div class="product-image">
+                    <img src="./img/cartasPokemon.jpg" alt="Set de cartas Pokémon Celestial Paradise Collection">
+                </div>
+                <div class="product-info">
+                    <p class="product-price">Price: 59,99$</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- ========================================
+         PIE DE PÁGINA (FOOTER)
+         ======================================== -->
+    <!-- Footer con 3 columnas: enlaces, copyright y redes sociales -->
+    <footer>
+        <!-- Columna 1: Enlaces de interés -->
+        <div class="footer-links">
+            <a href="#copyright">COPYRIGHT ADRIAN</a>
+            <a href="#politicas">POLÍTICAS DE DATOS</a>
+            <a href="#cookies">COOKIES</a>
+        </div>
+
+        <!-- Columna 2: Copyright (vacía en este caso, se muestra en columna 1) -->
+        <div class="footer-copyright">
+            <!-- Espacio reservado -->
+        </div>
+
+        <!-- Columna 3: Redes sociales -->
+        <div class="footer-social">
+            <a href="#instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#twitter" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+            <a href="#tiktok" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>

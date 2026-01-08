@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos básicos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mi Librería - Tu tienda de libros online y física en Madrid">
+
+    <!-- Título de la página -->
+    <title>Mi Librería - Inicio</title>
+
+    <!-- Enlace a la hoja de estilos -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome para iconos de redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- ========================================
+         CABECERA (HEADER)
+         ======================================== -->
+    <!-- Contiene el nombre de la empresa y el logotipo -->
+    <header>
+        <h1>BOOKSTORE</h1>
+        <div class="logo">
+            <img src="./img/ChatGPT Image 6 nov 2025, 18_17_25.png" alt="Logo Libros Online">
+            <span>LIBROS<br>Online</span>
+        </div>
+    </header>
+
+    <!-- ========================================
+         BARRA DE NAVEGACIÓN (NAV)
+         ======================================== -->
+    <!-- Incluye buscador y menú de navegación -->
+    <nav>
+        <!-- Formulario de búsqueda (lado izquierdo) -->
+        <form class="search-form" action="#" method="get">
+            <input type="search" name="buscar" placeholder="Buscador" aria-label="Buscar productos">
+        </form>
+
+        <!-- Menú de navegación (lado derecho) -->
+        <ul class="nav-menu">
+            <li><a href="index.html">Tu librería</a></li>
+            <li><a href="tienda.html">Compra On-Line</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- ========================================
+         CONTENIDO PRINCIPAL (MAIN)
+         ======================================== -->
+    <main>
+        <!-- ========================================
+             SECCIÓN DE BIENVENIDA
+             ======================================== -->
+        <!-- Presenta la librería con texto e imagen -->
+        <section class="welcome-section">
+            <div class="welcome-text">
+                <h2>WELCOME TO OUR BOOKSTORE</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas egestas lectus sit
+                    amet metus accumsan, ut lobortis neque aliquet. Orci varius natoque penatibus et
+                    magnis dis parturient montes, nascetur ridiculus mus. Morbi in tristique nunc. Sed
+                    varius, nunc id ultricies varius, nunc nunc ultricies nunc, nec ultricies nunc nunc
+                    id nunc. Sed varius, nunc id ultricies varius, nunc nunc ultricies nunc.
+                </p>
+            </div>
+            <div class="welcome-image">
+                <img src="library.png" alt="Interior de nuestra librería moderna">
+            </div>
+        </section>
+
+        <!-- ========================================
+             SECCIÓN DE LIBROS DESTACADOS
+             ======================================== -->
+        <!-- Muestra una selección de libros en formato grid -->
+        <section class="books-section">
+            <h2>BOOKSTORE</h2>
+
+            <!-- Grid con scroll horizontal de libros destacados -->
+            <div class="books-grid">
+                <!-- Libro 1: Geronimo Stilton -->
+                <article class="book-card">
+                    <img src="./img/geronimo.jpg" alt="Geronimo Stilton - Regreso al Reino de la Fantasía">
+                    <h3>Título: Geronimo Stilton</h3>
+                    <p>Precio: 20$</p>
+                </article>
+
+                <!-- Libro 2: Harry Potter -->
+                <article class="book-card">
+                    <img src="./img/HARRY.jpg" alt="Harry Potter y la piedra filosofal">
+                    <h3>Título: Harry Potter</h3>
+                    <p>Precio: 35$</p>
+                </article>
+
+                <!-- Libro 3: Los Futbolísimos -->
+                <article class="book-card">
+                    <img src="./img/futbolisimos.jpg" alt="Los Futbolísimos">
+                    <h3>Título: Los Futbolísimos</h3>
+                    <p>Precio: 19,99$</p>
+                </article>
+
+                <!-- Libro 4: El Señor de los Anillos -->
+                <article class="book-card">
+                    <img src="./img/anillos.jpg" alt="El señor de los anillos">
+                    <h3>Título: El señor de los anillos</h3>
+                    <p>Precio: 44,99$</p>
+                </article>
+
+                <!-- Libro 6: Diario de Greg -->
+                <article class="book-card">
+                    <img src="./img/greg.jpg" alt="Diario de Greg - Un pringao total">
+                    <h3>Título: Diario de Greg</h3>
+                    <p>Precio: 15,99$</p>
+                </article>
+
+                <!-- Libro 7: Los Juegos del Hambre -->
+                <article class="book-card">
+                    <img src="book7.png" alt="Los Juegos del Hambre">
+                    <h3>Título: Los Juegos del Hambre</h3>
+                    <p>Precio: 32$</p>
+                </article>
+
+                <!-- Libro 8: El Corredor del Laberinto -->
+                <article class="book-card">
+                    <img src="book8.png" alt="El corredor del laberinto">
+                    <h3>Título: El Corredor del Laberinto</h3>
+                    <p>Precio: 29,99$</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ========================================
+             SECCIÓN BUSCADOR DE TIENDAS
+             ======================================== -->
+        <!-- Permite localizar tiendas físicas con mapa -->
+        <section class="store-finder">
+            <h2>STORE FINDER</h2>
+
+            <!-- Buscador de tiendas -->
+            <div class="store-search">
+                <input type="search" placeholder="buscador" aria-label="Buscar tienda">
+            </div>
+
+            <!-- Contenedor con lista de tiendas y mapa -->
+            <div class="store-content">
+                <!-- Lista de ubicaciones de tiendas -->
+                <div class="store-list">
+                    <button class="store-item">Calle doctor lacascer num 67</button>
+                    <button class="store-item">Calle ancha num 90</button>
+                    <button class="store-item">Calle triste figura 23</button>
+                </div>
+
+                <!-- Mapa con ubicaciones -->
+                <div class="store-map">
+                    <img src="map.png" alt="Mapa de Madrid con ubicaciones de nuestras tiendas">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========================================
+         PIE DE PÁGINA (FOOTER)
+         ======================================== -->
+    <!-- Footer con 3 columnas: enlaces, copyright y redes sociales -->
+    <footer>
+        <!-- Columna 1: Enlaces de interés -->
+        <div class="footer-links">
+            <a href="#copyright">COPYRIGHT ADRIAN</a>
+            <a href="#politicas">POLÍTICAS DE DATOS</a>
+            <a href="#cookies">COOKIES</a>
+        </div>
+
+        <!-- Columna 2: Copyright (vacía en este caso, se muestra en columna 1) -->
+        <div class="footer-copyright">
+            <!-- Espacio reservado -->
+        </div>
+
+        <!-- Columna 3: Redes sociales -->
+        <div class="footer-social">
+            <a href="#instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#twitter" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+            <a href="#tiktok" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
